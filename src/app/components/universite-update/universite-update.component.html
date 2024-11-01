@@ -1,0 +1,9 @@
+<h2>Update Université</h2>
+<form (ngSubmit)="updateUniversite()">
+  <div>
+    <label for="nomUniv">Nom Université:</label>
+    <input type="text" id="nomUniv" [(ngModel)]="universite.nomUniv" name="nomUniv" required />
+  </div>
+  <button type="submit">Update</button>
+  <button (click)="router.navigate(['/universites'])">Cancel</button>
+</form>

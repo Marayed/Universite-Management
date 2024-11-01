@@ -1,0 +1,9 @@
+<h2>List of Universities</h2>
+<a routerLink="/universite-add">Add University</a>
+<ul>
+  <li *ngFor="let universite of universites">
+    {{ universite.nomUniv }}
+    <button (click)="editUniversite(universite.idUniv)">Edit</button>
+    <button (click)="deleteUniversite(universite.idUniv)">Delete</button>
+  </li>
+</ul>
