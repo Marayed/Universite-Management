@@ -8,7 +8,7 @@ import { Departement } from '../models/departement';
   providedIn: 'root',
 })
 export class UniversiteService {
-  private apiUrl = 'http://localhost:8089/kaddem/universite';
+  private apiUrl = 'http://192.168.33.10:8089/kaddem/universite';
 
   constructor(private http: HttpClient) {}
 
