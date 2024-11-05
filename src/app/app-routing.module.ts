@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'universites/update/:id', component: UniversiteUpdateComponent },
   { path: '', redirectTo: '/universites', pathMatch: 'full' },
 ];
-
+//webhook test
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
